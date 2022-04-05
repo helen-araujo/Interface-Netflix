@@ -10,3 +10,6 @@ https://www.themoviedb.org/?language=pt-BR
 
 Icones
 https://fontawesome.com/
+
+Carrossel de Imagens
+https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html
