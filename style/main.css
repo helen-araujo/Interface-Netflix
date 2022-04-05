@@ -12,13 +12,15 @@
 body {
     background: var(--preta);
     background-color: rgb(12, 12, 12);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #AAA;
 }
 
 header .container {
-    border: 1px solid;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 header .logo {
@@ -43,13 +45,14 @@ header nav a:hover {
 
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)) 100%, url('/img/capa-loucas-para-casar.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .50)) 100%, url('/img/capa-loucas-para-casar.jpg');
     height: 400px;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    color: #fff;
 }
 
 .filme-principal .descricao {
@@ -80,4 +83,20 @@ header nav a:hover {
 
 .botao i {
     margin-right: 5px;
+}
+
+.container {
+    margin-left: 30px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.filme-principal .container {
+    width: 60%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
