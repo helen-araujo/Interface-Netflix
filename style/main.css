@@ -13,7 +13,7 @@ body {
     background: var(--preta);
     background-color: rgb(12, 12, 12);
     font-family: Arial, Helvetica, sans-serif;
-    color: #AAA;
+    color: white;
 }
 
 header .container {
